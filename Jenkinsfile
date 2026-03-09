@@ -5,7 +5,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git ''
+                git 'https://github.com/Srikara8736/test.git'
             }
         }
 
@@ -29,3 +29,4 @@ pipeline {
 
     }
 }
+
